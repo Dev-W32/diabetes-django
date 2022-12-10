@@ -1,18 +1,6 @@
 {
     "version":1,
-"builds " : [
-    {
-        "src":"DiabetesPrediction/wsgi.py",
-        "use":"@vercel/python",
-        "config":{"maxLambdaSize":"15mb","runtime":"python3.10"}
-    },
-    {
-        "src": "build files.sh",
-"use" : "@vercel/static-build",
-"config": {"distDir": "staticfiles build"}
-    }
 
-],
 "routes":[
     {
         "src" :"/static/(.*)",
