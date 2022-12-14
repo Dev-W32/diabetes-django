@@ -25,7 +25,7 @@ SECRET_KEY = 'blq_5ogilm4io^a7&0vb#nbg*&jo719r$!l1)kyw72p@lk(&@8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','diabetes-django-production.up.railway.app']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','diabetes-django-production.up.railway.app','.railway.app']
 
 
 # Application definition
