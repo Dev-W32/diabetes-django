@@ -60,9 +60,7 @@ def result(request):
         BMI = request.POST['BMI']
         DiabetesPedigreeFunction = request.POST['DiabetesPedigreeFunction']
         Age = request.POST['Age']
-
-
-       InputData = [[int(Pregnancies), int(Glucose), float(BloodPressure), float(SkinThickness), float(Insulin), float(BMI), float(DiabetesPedigreeFunction), int(Age)]]
+        InputData = [[int(Pregnancies), int(Glucose), float(BloodPressure), float(SkinThickness), float(Insulin), float(BMI), float(DiabetesPedigreeFunction), int(Age)]]
 
         pred_gnb = gnb.predict(InputData)
         pred_knn = knn.predict(InputData)
