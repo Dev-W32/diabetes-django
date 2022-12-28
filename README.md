@@ -1,1 +1,1 @@
-# DiabetesPred-UI
+# DiabetesPred
